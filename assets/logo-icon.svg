@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="180 85 140 150" width="100%" height="100%">
+  <defs>
+    <!-- Gold Linear Gradient -->
+    <linearGradient id="lexdomIconGoldNavy" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#F3E7C4" />
+      <stop offset="35%" stop-color="#D4AF37" />
+      <stop offset="70%" stop-color="#C5A880" />
+      <stop offset="100%" stop-color="#9E7838" />
+    </linearGradient>
+    <filter id="iconGlowNavy" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="1" stdDeviation="1.5" flood-color="#D4AF37" flood-opacity="0.35" />
+    </filter>
+  </defs>
+
+  <!-- Temple Pediment (Roof) in Navy -->
+  <polygon points="250,88 186,122 314,122" fill="#0E2340" />
+  
+  <!-- Entablature / Architrave Bars -->
+  <rect x="182" y="125" width="136" height="6.5" fill="url(#lexdomIconGoldNavy)" rx="1.5" filter="url(#iconGlowNavy)" />
+  <rect x="190" y="133.5" width="120" height="5.5" fill="#0E2340" rx="1" />
+
+  <!-- The "L" Emblem & Pillars -->
+  <!-- Left column forming the L upright -->
+  <rect x="204" y="142" width="28" height="88" fill="#0E2340" rx="1" />
+  <!-- Horizontal base of L -->
+  <rect x="204" y="204" width="106" height="26" fill="#0E2340" rx="1" />
+
+  <!-- 3 Inner Gold Columns -->
+  <!-- Column 1 -->
+  <rect x="246" y="146" width="9.5" height="55" fill="url(#lexdomIconGoldNavy)" rx="2" />
+  <rect x="243.5" y="143" width="14.5" height="3.5" fill="url(#lexdomIconGoldNavy)" rx="1" />
+  <rect x="243.5" y="200" width="14.5" height="3.5" fill="url(#lexdomIconGoldNavy)" rx="1" />
+
+  <!-- Column 2 -->
+  <rect x="267" y="146" width="9.5" height="55" fill="url(#lexdomIconGoldNavy)" rx="2" />
+  <rect x="264.5" y="143" width="14.5" height="3.5" fill="url(#lexdomIconGoldNavy)" rx="1" />
+  <rect x="264.5" y="200" width="14.5" height="3.5" fill="url(#lexdomIconGoldNavy)" rx="1" />
+
+  <!-- Column 3 -->
+  <rect x="288" y="146" width="9.5" height="55" fill="url(#lexdomIconGoldNavy)" rx="2" />
+  <rect x="285.5" y="143" width="14.5" height="3.5" fill="url(#lexdomIconGoldNavy)" rx="1" />
+  <rect x="285.5" y="200" width="14.5" height="3.5" fill="url(#lexdomIconGoldNavy)" rx="1" />
+</svg>

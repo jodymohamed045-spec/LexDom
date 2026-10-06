@@ -1,0 +1,1036 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>LexDom - AI Legal Compliance Guard for Startups | Your Legal Home</title>
+  
+  <!-- Fonts: Cinzel & Plus Jakarta Sans & Cairo for Arabic -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;600;700;800&family=Cinzel:wght@600;700;800;900&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="icon" type="image/svg+xml" href="assets/logo.svg">
+</head>
+<body>
+
+  <!-- =====================================================================
+       FANTASY / SCI-FI LEGAL CODEX LOGIN & ONBOARDING PORTAL
+       ===================================================================== -->
+  <div id="login-screen">
+    <!-- Background Juridical Matrix & Celestial Rings -->
+    <div class="celestial-matrix">
+      <div class="matrix-grid"></div>
+      <div class="celestial-rings">
+        <div class="ring ring-1"></div>
+        <div class="ring ring-2"></div>
+        <div class="ring ring-3"></div>
+      </div>
+      <div class="glowing-orb orb-gold"></div>
+      <div class="glowing-orb orb-blue"></div>
+    </div>
+
+    <!-- Portal Glassmorphic Card -->
+    <div class="portal-card">
+      <div class="portal-header">
+        <div class="portal-logo-wrap">
+          <img src="assets/logo-icon-white.svg" alt="LexDom Logo" style="width:100%; height:100%;">
+        </div>
+        <h1 class="portal-title">L E X D O M</h1>
+        <div class="portal-sub">YOUR LEGAL HOME</div>
+        <p class="portal-tagline">Quantum AI Compliance & Legal Defense Guard for Startups</p>
+      </div>
+
+      <form id="login-portal-form" onsubmit="return false;">
+        <!-- Email Input -->
+        <div class="quantum-field">
+          <label class="quantum-label" for="login-email-input">
+            <span>Founder Identity / Work Email (البريد الإلكتروني)</span>
+            <span style="color:var(--gold-400); font-weight:700; margin-left:auto;">* Required</span>
+          </label>
+          <div class="quantum-input-wrap">
+            <span class="quantum-icon">✉️</span>
+            <input type="email" id="login-email-input" class="quantum-input" placeholder="e.g. founder1@startup.io" required autocomplete="email">
+          </div>
+          <p style="font-size:0.72rem; color:var(--slate-300); margin-top:0.35rem;">
+            💡 <strong>Account Isolation:</strong> Each email represents a unique user with its own separate 10 free scans. Any change in email opens a completely new account!
+          </p>
+        </div>
+
+        <!-- Founder Name -->
+        <div class="quantum-field">
+          <label class="quantum-label" for="login-name-input">Startup or Founder Name (Optional)</label>
+          <div class="quantum-input-wrap">
+            <span class="quantum-icon">🛡️</span>
+            <input type="text" id="login-name-input" class="quantum-input" placeholder="e.g. Sarah Vance (Aegis Health)">
+          </div>
+        </div>
+
+        <!-- CRITICAL JURISDICTION SELECTION (قانون بلد إيه - أهم معلومة تحفظ) -->
+        <div class="quantum-field">
+          <label class="quantum-label">
+            <span>Primary Governing Law (الاختصاص القضائي الأساسي)</span>
+            <span style="color:var(--gold-400); font-weight:700; margin-left:auto;">* Required</span>
+          </label>
+          <p style="font-size:0.73rem; color:var(--slate-300); margin-bottom:0.5rem;">
+            Select your baseline legal jurisdiction. AI statutory checks, court rules, and loophole detections will calibrate to this legal framework:
+          </p>
+
+          <div class="jurisdiction-badge-grid">
+            <div class="jurisdiction-btn" data-jurisdiction="delaware">
+              <span class="flag">🇺🇸</span>
+              <div class="info">
+                <span class="name">US - Delaware</span>
+                <span class="desc">DGCL & Chancery Court</span>
+              </div>
+            </div>
+
+            <div class="jurisdiction-btn" data-jurisdiction="ksa">
+              <span class="flag">🇸🇦</span>
+              <div class="info">
+                <span class="name">Saudi Arabia (KSA)</span>
+                <span class="desc">نظام الشركات والعمل الجديد</span>
+              </div>
+            </div>
+
+            <div class="jurisdiction-btn active" data-jurisdiction="egypt">
+              <span class="flag">🇪🇬</span>
+              <div class="info">
+                <span class="name">Egypt (مصر)</span>
+                <span class="desc">قانون الاستثمار والمحاكم الاقتصادية</span>
+              </div>
+            </div>
+
+            <div class="jurisdiction-btn" data-jurisdiction="uae">
+              <span class="flag">🇦🇪</span>
+              <div class="info">
+                <span class="name">UAE - DIFC / ADGM</span>
+                <span class="desc">English Common Law Free Zone</span>
+              </div>
+            </div>
+
+            <div class="jurisdiction-btn" data-jurisdiction="uk">
+              <span class="flag">🇬🇧</span>
+              <div class="info">
+                <span class="name">United Kingdom</span>
+                <span class="desc">Companies Act & Chancery</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Biometric Authorization Simulation Submit -->
+        <button id="btn-login-submit" class="portal-submit-btn">
+          <span>⚡ Initialize Legal Defense Portal</span>
+        </button>
+
+        <div class="portal-footer-notice">
+          🔒 Encrypted Sovereign Session. LexDom will anchor all audits and contract rewrites to your selected legal framework.
+        </div>
+      </form>
+    </div>
+  </div>
+
+  <!-- =====================================================================
+       MAIN APPLICATION LAYOUT
+       ===================================================================== -->
+  <div id="app-container">
+    
+    <!-- LUXURY SIDEBAR NAVIGATION -->
+    <aside class="app-sidebar">
+      <div class="sidebar-brand">
+        <div class="brand-logo-container">
+          <img src="assets/logo-icon-white.svg" alt="LexDom Logo" class="brand-logo-img">
+        </div>
+        <div class="brand-text">
+          <div class="title">LEXDOM</div>
+          <div class="tagline">YOUR LEGAL HOME</div>
+        </div>
+      </div>
+
+      <!-- Current Profile Card -->
+      <div class="sidebar-user-card">
+        <div class="user-avatar" id="sidebar-user-avatar">SV</div>
+        <div class="user-info">
+          <div class="user-name" id="sidebar-user-name">Sarah Vance</div>
+          <div class="user-jurisdiction-badge" id="sidebar-user-law">🇪🇬 Egypt (مصر)</div>
+        </div>
+      </div>
+
+      <!-- Navigation Links -->
+      <nav class="sidebar-nav">
+        <div class="nav-section-title">Legal Operations</div>
+        
+        <a class="nav-item active" data-tab="dashboard">
+          <span class="icon">🛡️</span>
+          <span>Dashboard</span>
+        </a>
+
+        <a class="nav-item" data-tab="analyzer">
+          <span class="icon">📑</span>
+          <span>Document Analyzer</span>
+          <span class="nav-badge">AI Guard</span>
+        </a>
+
+        <a class="nav-item" data-tab="negotiation">
+          <span class="icon">🤝</span>
+          <span>Negotiation Assistant</span>
+          <span class="nav-badge">3 Counter-Offers</span>
+        </a>
+
+        <a class="nav-item" data-tab="benchmark">
+          <span class="icon">📊</span>
+          <span>Market Benchmark</span>
+        </a>
+
+        <a class="nav-item" data-tab="compare">
+          <span class="icon">⚖️</span>
+          <span>Jurisdiction Compare</span>
+          <span class="nav-badge">Cross-Border</span>
+        </a>
+
+        <div class="nav-section-title">Records & Account</div>
+
+        <a class="nav-item" data-tab="history">
+          <span class="icon">📜</span>
+          <span>Audit History</span>
+        </a>
+
+        <a class="nav-item" data-tab="pricing">
+          <span class="icon">💎</span>
+          <span>Pricing & Plans</span>
+          <span class="nav-badge" style="background:var(--gold-400); color:var(--navy-950);">50% Off</span>
+        </a>
+
+        <a class="nav-item" data-tab="settings">
+          <span class="icon">⚙️</span>
+          <span>Settings</span>
+        </a>
+      </nav>
+
+      <!-- Sidebar Footer: Reward Points & 10 Files Upload Tracker -->
+      <div class="sidebar-loyalty-widget">
+        <div class="loyalty-header">
+          <div class="loyalty-title">
+            <span>🏆</span> Reward Points
+          </div>
+          <span class="points-pill" id="sidebar-points">30 pts</span>
+        </div>
+
+        <div class="loyalty-progress-bar-bg">
+          <div class="loyalty-progress-bar-fill" id="sidebar-progress-fill" style="width:30%;"></div>
+        </div>
+
+        <div class="loyalty-subtext">
+          Uploads: <strong id="sidebar-upload-count">3 / 10</strong><br>
+          Collect 100 points (10 files) to unlock a <strong>permanent 50% discount</strong> on the Pro Plan!
+        </div>
+
+        <button class="upgrade-pro-btn btn-trigger-pro-modal">
+          <span>✨</span> Upgrade to Pro
+        </button>
+      </div>
+    </aside>
+
+    <!-- MAIN CONTENT & TOPBAR WRAPPER -->
+    <div class="main-wrapper">
+      
+      <!-- TOPBAR -->
+      <header class="topbar">
+        <div class="topbar-left">
+          <div class="topbar-brand" style="display:flex; align-items:center; gap:0.65rem; padding-right:1.25rem; border-right:1px solid var(--slate-200);">
+            <img src="assets/logo-icon.svg" alt="LexDom" style="width:36px; height:36px; filter:drop-shadow(0 2px 4px rgba(212,175,55,0.45));">
+            <div style="display:flex; flex-direction:column; line-height:1.05;">
+              <span style="font-family:var(--font-serif); font-size:1.15rem; font-weight:800; color:var(--navy-900); letter-spacing:0.12em;">LEXDOM</span>
+              <span style="font-size:0.58rem; font-weight:700; color:var(--gold-600); letter-spacing:0.15em;">YOUR LEGAL HOME</span>
+            </div>
+          </div>
+
+          <div class="jurisdiction-indicator">
+            <span class="flag" id="topbar-user-flag">🇪🇬</span>
+            <span>Governing Law:</span>
+            <strong id="topbar-user-law">Egypt (مصر)</strong>
+            <button class="btn-change-jurisdiction" id="btn-change-jurisdiction">Switch</button>
+          </div>
+        </div>
+
+        <div class="topbar-right">
+          <!-- Reward Points Top Pill -->
+          <div class="topbar-points-pill">
+            <span>💎 Reward Points:</span>
+            <span id="topbar-points">30 pts</span>
+            <span style="font-size:0.7rem; font-weight:500; color:var(--slate-500);">(10 pts/file)</span>
+          </div>
+
+          <button class="btn-quick-upgrade btn-trigger-pro-modal">
+            <span>⭐ Upgrade to Pro</span>
+          </button>
+
+          <button class="btn-logout" id="btn-logout" title="Sign out or Switch to a different email account">
+            <span>🔄 Switch Account / Logout</span>
+          </button>
+        </div>
+      </header>
+
+      <!-- MAIN PAGES CONTAINER -->
+      <main class="page-container">
+
+        <!-- ===============================================================
+             TAB 1: DASHBOARD
+             =============================================================== -->
+        <section id="tab-dashboard" class="tab-pane active">
+          
+          <!-- Hero Compliance Guard Card -->
+          <div class="hero-guard-card">
+            <!-- Decorative Logo Watermark -->
+            <div style="position:absolute; right:20px; top:50%; transform:translateY(-50%); opacity:0.12; pointer-events:none; width:230px; height:230px;">
+              <img src="assets/logo-white.svg" alt="" style="width:100%; height:100%; object-fit:contain;">
+            </div>
+
+            <div class="guard-status-badge">
+              <span class="pulse-dot"></span>
+              LEXDOM AI COMPLIANCE GUARD ACTIVE
+            </div>
+            <h1 class="hero-guard-title">Protecting Your Startup Against Predatory Legal Traps</h1>
+            <p class="hero-guard-desc">
+              Your autonomous AI legal shield. LexDom scans SAFEs, term sheets, employment agreements, and shareholder pacts for uncapped liabilities, illegal non-competes, and jurisdiction vulnerabilities.
+            </p>
+
+            <div style="display:flex; gap:1rem; flex-wrap:wrap;">
+              <button class="btn-browse" data-goto-tab="analyzer" style="padding:0.75rem 1.75rem; font-size:0.95rem;">
+                <span>📑 Scan New Contract (PDF)</span>
+              </button>
+              <button class="btn-simulate-10" id="btn-simulate-10" style="padding:0.75rem 1.25rem; font-size:0.85rem;">
+                <span>⚡ Simulate 10 Files Upload (Unlock 50% Loyalty)</span>
+              </button>
+            </div>
+
+            <!-- Stats Row -->
+            <div class="hero-stat-row">
+              <div class="hero-stat-card">
+                <div class="label">Governing Framework</div>
+                <div class="val" id="dash-active-law-badge" style="font-size:1.15rem;">🇪🇬 Egypt (Law 72/159)</div>
+              </div>
+              <div class="hero-stat-card">
+                <div class="label">Analyzed Contracts</div>
+                <div class="val" id="dash-uploads-display">3/10</div>
+              </div>
+              <div class="hero-stat-card">
+                <div class="label">Reward Points Balance</div>
+                <div class="val" id="dash-points-display">30 pts</div>
+              </div>
+              <div class="hero-stat-card">
+                <div class="label">Pro Plan Status</div>
+                <div class="val" style="color:var(--emerald-500); font-size:1.2rem;">Free Founder Tier</div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Loyalty Milestone Special Banner (Shows when reaching 10 uploads / 100 pts) -->
+          <div class="milestone-banner" id="dashboard-milestone-banner" style="display:none;">
+            <div class="icon">🎉</div>
+            <div class="info">
+              <h3>Loyalty Milestone Unlocked: 10 Contracts Analyzed!</h3>
+              <p>You've earned 100 Reward Points! Because of your continuous usage, you've unlocked a permanent 50% discount on the Pro Plan. Don't lose your discount code!</p>
+            </div>
+            <button class="btn-claim btn-trigger-pro-modal">
+              Claim 50% Off Waitlist
+            </button>
+          </div>
+
+          <!-- Dashboard Grid: Recent Activity & Market Benchmark Widget Preview -->
+          <div class="dashboard-grid">
+            
+            <!-- Left Card: Quick Audit Action & Recent Scans -->
+            <div class="card">
+              <div class="card-header">
+                <div class="card-title">
+                  <span>⚡</span> Quick Audit & Pre-loaded Startup Contracts
+                </div>
+                <button class="btn-browse" data-goto-tab="analyzer" style="padding:0.35rem 0.85rem; font-size:0.75rem;">
+                  Open Full Analyzer →
+                </button>
+              </div>
+              <p style="font-size:0.85rem; color:var(--slate-500); margin-bottom:1rem;">
+                Click any pre-loaded high-risk contract to simulate an instant AI compliance audit:
+              </p>
+
+              <div class="sample-grid">
+                <div class="sample-card" data-sample-id="sample-safe">
+                  <span class="badge">🇺🇸 Delaware C-Corp</span>
+                  <div class="title">YC Post-Money SAFE (Series A)</div>
+                  <div class="desc">High Risk (78%). Uncapped personal founder liability and 3-year non-compete.</div>
+                </div>
+
+                <div class="sample-card" data-sample-id="sample-ksa-employment">
+                  <span class="badge">🇸🇦 KSA Labor & IP</span>
+                  <div class="title">Saudi Founder Employment Pact</div>
+                  <div class="desc">High Risk (72%). Statutory gratuity forfeiture and prior IP seizure.</div>
+                </div>
+
+                <div class="sample-card" data-sample-id="sample-egypt-shareholders">
+                  <span class="badge">🇪🇬 Egypt Economic Court</span>
+                  <div class="title">اتفاقية مساهمين شركة ناشئة مصرية</div>
+                  <div class="desc">High Risk (82%). شرط الأسد الباطل وشرط تحكيم معيب يهدد الكيان التجاري.</div>
+                </div>
+
+                <div class="sample-card" data-sample-id="sample-family-estate">
+                  <span class="badge">👨‍👩‍👧‍👦 محكمة الأسرة والمدني</span>
+                  <div class="title">حماية أصول المؤسس وعقود الأسرة</div>
+                  <div class="desc">خطر خلط الذمة المالية الشخصية والأسرية بحسابات الشركة الناشئة.</div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Right Card: Market Benchmark Widget Summary -->
+            <div class="card">
+              <div class="card-header">
+                <div class="card-title">
+                  <span>📊</span> Market Benchmark Widget
+                </div>
+                <button class="btn-browse" data-goto-tab="benchmark" style="padding:0.35rem 0.85rem; font-size:0.75rem;">
+                  Full Matrix →
+                </button>
+              </div>
+              <p style="font-size:0.8rem; color:var(--slate-500); margin-bottom:0.75rem;">
+                Real-world startup venture standards vs typical predatory traps:
+              </p>
+
+              <div style="display:flex; flex-direction:column; gap:0.75rem;">
+                <div style="background:var(--slate-50); padding:0.75rem; border-radius:8px; border:1px solid var(--slate-200);">
+                  <div style="display:flex; justify-content:space-between; font-size:0.78rem; font-weight:700;">
+                    <span>Founder Vesting</span>
+                    <span style="color:var(--emerald-600);">92% Compliance</span>
+                  </div>
+                  <div style="font-size:0.72rem; color:var(--slate-500); margin-top:0.2rem;">
+                    Standard: 4-Year with 1-Year Cliff (Monthly thereafter)
+                  </div>
+                </div>
+
+                <div style="background:var(--slate-50); padding:0.75rem; border-radius:8px; border:1px solid var(--slate-200);">
+                  <div style="display:flex; justify-content:space-between; font-size:0.78rem; font-weight:700;">
+                    <span>Liquidation Preference</span>
+                    <span style="color:var(--emerald-600);">88% Standard</span>
+                  </div>
+                  <div style="font-size:0.72rem; color:var(--slate-500); margin-top:0.2rem;">
+                    Standard: 1.0x Non-Participating (Avoid 2.0x Double Dip)
+                  </div>
+                </div>
+
+                <div style="background:var(--slate-50); padding:0.75rem; border-radius:8px; border:1px solid var(--slate-200);">
+                  <div style="display:flex; justify-content:space-between; font-size:0.78rem; font-weight:700;">
+                    <span>Founder Liability Shield</span>
+                    <span style="color:#b91c1c;">Vulnerable in 40%</span>
+                  </div>
+                  <div style="font-size:0.72rem; color:var(--slate-500); margin-top:0.2rem;">
+                    Standard: Corporate only, capped to fees/proceeds
+                  </div>
+                </div>
+              </div>
+
+              <div style="margin-top:1.25rem; text-align:center;">
+                <button class="upgrade-pro-btn btn-trigger-pro-modal">
+                  <span>💎</span> Unlock Venture Term Database
+                </button>
+              </div>
+            </div>
+
+          </div>
+
+        </section>
+
+        <!-- ===============================================================
+             TAB 2: DOCUMENT ANALYZER (UPLOADER & AI COMPLIANCE GUARD)
+             =============================================================== -->
+        <section id="tab-analyzer" class="tab-pane">
+          <div class="page-header">
+            <div>
+              <h2 class="page-title">AI Legal Compliance Guard</h2>
+              <p class="page-subtitle">Drag-and-drop contract PDF, select governing law & court type, and run simulated AI risk audit.</p>
+            </div>
+            <div>
+              <button class="btn-simulate-10" id="btn-simulate-10-analyzer" onclick="document.getElementById('btn-simulate-10').click();">
+                <span>⚡ Simulate 10 Files Upload (Loyalty Bonus)</span>
+              </button>
+            </div>
+          </div>
+
+          <!-- Pre-Upload Configuration Controls -->
+          <div class="analyzer-controls-card">
+            <div class="control-group-grid">
+              
+              <!-- 1. Governing Law Dropdown -->
+              <div class="control-field">
+                <label class="control-label" for="upload-governing-law-select">
+                  <span>⚖️ Governing Law (قانون الاختصاص)</span>
+                </label>
+                <select id="upload-governing-law-select" class="custom-select">
+                  <option value="delaware">🇺🇸 US - Delaware (DGCL & Chancery Court)</option>
+                  <option value="ksa">🇸🇦 Saudi Arabia - KSA (نظام الشركات والعمل الجديد)</option>
+                  <option value="egypt" selected>🇪🇬 Egypt - مصر (قانون الشركات 159 وقانون الاستثمار 72)</option>
+                  <option value="uae">🇦🇪 UAE - DIFC & ADGM (Common Law Zone)</option>
+                  <option value="uk">🇬🇧 United Kingdom (Companies Act 2006)</option>
+                </select>
+              </div>
+
+              <!-- 2. Court / Case Category (محكمة الأسرة، الاقتصادية، إلخ) -->
+              <div class="control-field">
+                <label class="control-label" for="upload-court-select">
+                  <span>🏛️ Court Category (نوع المحكمة وتصنيف الدعوى)</span>
+                </label>
+                <select id="upload-court-select" class="custom-select">
+                  <option value="economic" selected>🏛️ المحكمة الاقتصادية وتأسيس الشركات (Economic & Startup Court)</option>
+                  <option value="family">👨‍👩‍👧‍👦 محكمة الأسرة والأحوال الشخصية (Family & Personal Status)</option>
+                  <option value="labor">💼 محكمة العمل والعمال (Labor & Employment Court)</option>
+                  <option value="arbitration">⚖️ التحكيم التجاري ومنازعات الاستثمار (Commercial Arbitration)</option>
+                  <option value="civil">📜 المحكمة المدنية والتجارية العامة (Civil & Commercial Court)</option>
+                  <option value="ip">💡 الملكية الفكرية وبراءات الاختراع (Intellectual Property Court)</option>
+                </select>
+              </div>
+
+            </div>
+
+            <!-- 3. Cross-Border Comparison Toggle ("مقارنة بين دولتين") -->
+            <div class="cross-border-toggle-box">
+              <div class="toggle-header">
+                <label class="toggle-switch-label" for="cross-border-toggle">
+                  <input type="checkbox" id="cross-border-toggle" class="switch-input">
+                  <span>🌍 Enable Cross-Border Jurisdiction Comparison (مقارنة بين دولتين)</span>
+                </label>
+                <span style="font-size:0.75rem; color:var(--gold-700); font-weight:700;">Multi-Jurisdiction Audit</span>
+              </div>
+
+              <div class="country-compare-select-row" id="country-compare-select-row">
+                <div class="control-field">
+                  <label class="control-label">Compare Primary Law With (دولة المقارنة):</label>
+                  <select id="compare-target-country-select" class="custom-select">
+                    <option value="delaware" selected>🇺🇸 US - Delaware (Chancery Court)</option>
+                    <option value="ksa">🇸🇦 Saudi Arabia - KSA</option>
+                    <option value="egypt">🇪🇬 Egypt (مصر)</option>
+                    <option value="uae">🇦🇪 UAE - DIFC</option>
+                    <option value="uk">🇬🇧 United Kingdom</option>
+                  </select>
+                </div>
+                <div style="display:flex; align-items:center; font-size:0.78rem; color:var(--slate-600); padding-top:1.2rem;">
+                  LexDom will analyze conflicts of law, international enforceability, and foreign arbitration validity between both legal systems.
+                </div>
+              </div>
+            </div>
+
+            <!-- Notice Banner -->
+            <div class="jurisdiction-notice-banner" id="jurisdiction-notice-text">
+              <strong>Jurisdiction Calibration Active:</strong> AI Legal Guard calibrated to <strong>🇪🇬 Egypt (Law 72/159 & Economic Courts)</strong>. All clauses checked for statutory enforceability.
+            </div>
+          </div>
+
+          <!-- Drag and Drop Uploader Zone -->
+          <div class="dropzone-container" id="dropzone">
+            <input type="file" id="contract-file-input" style="display:none;" accept=".pdf,.docx,.txt">
+            <div class="dropzone-icon">📄</div>
+            <h3 class="dropzone-title">Drag & Drop Contract PDF Here</h3>
+            <p class="dropzone-subtitle">Supported: SAFEs, Term Sheets, Shareholder Pacts, Employment & IP Agreements (.PDF, .DOCX)</p>
+            <button class="btn-browse" id="btn-browse-file">Browse Computer Files</button>
+          </div>
+
+          <!-- Sample Contracts for 1-Click Instant Testing -->
+          <div class="sample-contracts-wrapper">
+            <div class="sample-contracts-title">
+              <span>⚡ Or Click a Sample Contract to Test Instantly:</span>
+              <span style="font-size:0.75rem; color:var(--slate-500); text-transform:none;">No upload needed</span>
+            </div>
+
+            <div class="sample-grid">
+              <div class="sample-card" data-sample-id="sample-safe">
+                <span class="badge">🇺🇸 Delaware C-Corp</span>
+                <div class="title">YC Post-Money SAFE (Series A)</div>
+                <div class="desc">High Risk (78%). Uncapped personal founder liability, 3-year non-compete.</div>
+              </div>
+
+              <div class="sample-card" data-sample-id="sample-ksa-employment">
+                <span class="badge">🇸🇦 KSA Labor Law</span>
+                <div class="title">Saudi Founder Employment Pact</div>
+                <div class="desc">High Risk (72%). Statutory severance waiver and pre-existing IP seizure.</div>
+              </div>
+
+              <div class="sample-card" data-sample-id="sample-egypt-shareholders">
+                <span class="badge">🇪🇬 Egypt Economic Court</span>
+                <div class="title">اتفاقية مساهمين شركة ناشئة مصرية</div>
+                <div class="desc">High Risk (82%). شرط الأسد وحرمان الشريك وشرط تحكيم معيب.</div>
+              </div>
+
+              <div class="sample-card" data-sample-id="sample-family-estate">
+                <span class="badge">👨‍👩‍👧‍👦 محكمة الأسرة والمدني</span>
+                <div class="title">حماية أصول المؤسس وعقود الأسرة</div>
+                <div class="desc">خطر خلط الذمة المالية الشخصية والأسرية بحسابات الشركة الناشئة.</div>
+              </div>
+            </div>
+          </div>
+
+          <!-- AI Scanning Radar Animation Card (Visible while analyzing) -->
+          <div class="scanning-state-card" id="scanning-card">
+            <div class="scanning-radar">
+              <div class="radar-circle"></div>
+              <div class="radar-sweep"></div>
+              <span style="font-size:1.8rem; z-index:2;">⚖️</span>
+            </div>
+            <h3 style="font-family:var(--font-serif); font-size:1.5rem; color:var(--gold-400);">
+              LexDom AI Neural Engine Scanning Contract...
+            </h3>
+            <p id="scan-step-text" class="scan-step-text">
+              Extracting contract clauses, indemnity covenants, and governing provisions...
+            </p>
+          </div>
+
+          <!-- =============================================================
+               AI AUDIT RESULTS VIEW (Risk Score, Critical Loopholes, Rewrites)
+               ============================================================= -->
+          <div id="audit-results-view">
+            
+            <!-- Audit Hero Card: Risk Score Gauge & Metadata -->
+            <div class="audit-hero-card">
+              <!-- Left: Circular Risk Score -->
+              <div class="risk-gauge-box">
+                <div class="circular-gauge">
+                  <svg viewBox="0 0 160 160">
+                    <circle class="gauge-bg" cx="80" cy="80" r="70"></circle>
+                    <circle class="gauge-val" id="gauge-progress-circle" cx="80" cy="80" r="70"></circle>
+                  </svg>
+                  <div class="gauge-center-text">
+                    <div class="gauge-score" id="audit-score-num">78%</div>
+                    <div class="gauge-label">RISK SCORE</div>
+                  </div>
+                </div>
+                <div style="font-size:0.75rem; color:var(--slate-500); margin-top:0.6rem;">
+                  High Founder Vulnerability Detected
+                </div>
+              </div>
+
+              <!-- Right: Details & Breakdown Meters -->
+              <div class="audit-overview-info">
+                <h2 id="audit-contract-title">YC Post-Money SAFE (Series A Bridge)</h2>
+                
+                <div class="audit-meta-tags">
+                  <span class="meta-tag" id="audit-jurisdiction-badge">🇺🇸 US - Delaware</span>
+                  <span class="meta-tag" id="audit-court-badge">🏛️ Economic & Startup Court</span>
+                  <span class="meta-tag" style="background:#fee2e2; color:#991b1b;">⚠️ 4 Critical Loopholes</span>
+                  <span class="meta-tag" style="background:#dcfce7; color:#166534;">✓ Rewrites Ready</span>
+                </div>
+
+                <div class="metric-meter-row">
+                  <div class="meter-item">
+                    <div class="label-row">
+                      <span>Founder Personal Liability</span>
+                      <span style="color:#ef4444;">92% Extreme Exposure</span>
+                    </div>
+                    <div class="meter-track">
+                      <div class="meter-fill-red" style="width:92%;"></div>
+                    </div>
+                  </div>
+
+                  <div class="meter-item">
+                    <div class="label-row">
+                      <span>IP Assignment Carve-outs</span>
+                      <span style="color:#ef4444;">85% High Seizure</span>
+                    </div>
+                    <div class="meter-track">
+                      <div class="meter-fill-red" style="width:85%;"></div>
+                    </div>
+                  </div>
+
+                  <div class="meter-item">
+                    <div class="label-row">
+                      <span>Non-Compete Enforceability</span>
+                      <span style="color:#f59e0b;">68% Punitive Scope</span>
+                    </div>
+                    <div class="meter-track">
+                      <div class="meter-fill-amber" style="width:68%;"></div>
+                    </div>
+                  </div>
+
+                  <div class="meter-item">
+                    <div class="label-row">
+                      <span>Dispute Forum Asymmetry</span>
+                      <span style="color:#ef4444;">74% One-Sided</span>
+                    </div>
+                    <div class="meter-track">
+                      <div class="meter-fill-red" style="width:74%;"></div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Critical Loopholes List with 'Rewrite Securely' -->
+            <div class="loopholes-section">
+              <div class="section-title-wrap">
+                <div class="section-title">
+                  <span>🚨</span> Critical Loopholes & Lawyer-Grade Rewrites
+                </div>
+                <div style="font-size:0.85rem; color:var(--slate-500);">
+                  Click <strong>'Rewrite Securely'</strong> to view and copy protective legal clauses:
+                </div>
+              </div>
+
+              <div id="loopholes-list-container">
+                <!-- Dynamically populated from JS -->
+              </div>
+            </div>
+
+          </div>
+
+        </section>
+
+        <!-- ===============================================================
+             TAB 3: NEGOTIATION ASSISTANT (3 Counter-Offers Generator)
+             =============================================================== -->
+        <section id="tab-negotiation" class="tab-pane">
+          <div class="page-header">
+            <div>
+              <h2 class="page-title">AI Negotiation Assistant</h2>
+              <p class="page-subtitle">Type your negotiation goal for any contract clause, and the AI generates 3 smart legal counter-offers with strategy talk-tracks.</p>
+            </div>
+          </div>
+
+          <div class="negotiation-workspace">
+            
+            <!-- Left: Goal Input -->
+            <div class="goal-input-card">
+              <div style="font-weight:700; color:var(--navy-900); font-size:1.05rem; margin-bottom:0.5rem; display:flex; align-items:center; gap:0.5rem;">
+                <span>🎯</span> Specify Your Negotiation Goal
+              </div>
+              
+              <div id="negotiation-target-clause" style="font-size:0.75rem; color:var(--slate-500); margin-bottom:0.75rem; font-style:italic;">
+                Target Clause: Section 8.3 - Unlimited Founder Personal Indemnification
+              </div>
+
+              <textarea id="negotiation-goal-input" class="goal-textarea" placeholder="e.g. Reduce founder vesting cliff from 2 years to 1 year and cap liability to 6 months of fees, and protect pre-existing IP."></textarea>
+
+              <div class="preset-goals-row">
+                <div style="font-size:0.75rem; font-weight:700; color:var(--slate-600); margin-bottom:0.35rem;">
+                  Quick Preset Startup Goals:
+                </div>
+                <span class="preset-chip" data-preset-goal="Cap founder indemnity to fees received in last 12 months and remove personal guarantee.">
+                  🛡️ Cap Liability to Fees
+                </span>
+                <span class="preset-chip" data-preset-goal="Reduce non-compete from 3 years worldwide to 12 months with paid garden leave.">
+                  ⏱️ 12-Month Non-Compete
+                </span>
+                <span class="preset-chip" data-preset-goal="Change dispute resolution to neutral CRCICA or DIFC arbitration with 1 arbitrator.">
+                  ⚖️ Institutional Arbitration
+                </span>
+                <span class="preset-chip" data-preset-goal="Exclude pre-existing founder code repositories and patents from IP assignment.">
+                  💡 Carve Out Pre-existing IP
+                </span>
+              </div>
+
+              <button class="btn-generate-offers" id="btn-generate-counter-offers">
+                <span>⚡ Generate 3 Smart Legal Counter-Offers</span>
+              </button>
+            </div>
+
+            <!-- Right: 3 Smart Counter-Offers Display -->
+            <div class="counter-offers-container" id="counter-offers-container">
+              <!-- Dynamically populated from JS -->
+              <div style="text-align:center; padding:3rem; background:#fff; border-radius:12px; border:1px solid #e2e8f0;">
+                <div style="font-size:2.5rem; margin-bottom:1rem;">🤝</div>
+                <h3 style="font-family:var(--font-serif); font-size:1.25rem; color:var(--navy-900);">AI Counter-Offer Engine Ready</h3>
+                <p style="color:var(--slate-500); font-size:0.875rem; max-width:440px; margin:0.5rem auto;">
+                  Type your clause goal on the left or select a preset to generate 3 strategic legal counter-offers (Balanced Win-Win, Founder Shield, Milestone Hybrid).
+                </p>
+              </div>
+            </div>
+
+          </div>
+        </section>
+
+        <!-- ===============================================================
+             TAB 4: MARKET BENCHMARK WIDGET
+             =============================================================== -->
+        <section id="tab-benchmark" class="tab-pane">
+          <div class="page-header">
+            <div>
+              <h2 class="page-title">Market Benchmark Widget</h2>
+              <p class="page-subtitle">Compares your contract terms with real-world startup standards (YC, 500 Global, NVCA, and regional MENA/US norms).</p>
+            </div>
+          </div>
+
+          <div class="benchmark-table-card">
+            <table class="benchmark-table">
+              <thead>
+                <tr>
+                  <th>Contract Term / Clause</th>
+                  <th>Your Contract Terms</th>
+                  <th>Market Standard (YC / NVCA)</th>
+                  <th>Compliance Rating</th>
+                </tr>
+              </thead>
+              <tbody id="benchmark-table-body">
+                <!-- Dynamically populated from JS -->
+              </tbody>
+            </table>
+          </div>
+        </section>
+
+        <!-- ===============================================================
+             TAB 5: JURISDICTION COMPARE (مقارنة بين دولتين)
+             =============================================================== -->
+        <section id="tab-compare" class="tab-pane">
+          <div class="page-header">
+            <div>
+              <h2 class="page-title">Cross-Border Jurisdiction Comparison Engine</h2>
+              <p class="page-subtitle">Compare enforceability, founder shields, arbitration, and statutory hurdles between any two legal jurisdictions.</p>
+            </div>
+          </div>
+
+          <!-- Hero Selector -->
+          <div class="comparison-hero-box">
+            <h3 style="font-family:var(--font-serif); font-size:1.35rem; color:var(--gold-300);">Select Multi-Jurisdiction Pair:</h3>
+            <div class="compare-dropdown-selector">
+              <select id="compare-pair-select" class="custom-select" style="background:#07152b; color:#fff; border-color:var(--gold-400);">
+                <option value="delaware_vs_egypt" selected>🇺🇸 US - Delaware vs 🇪🇬 Egypt (مصر)</option>
+                <option value="delaware_vs_ksa">🇺🇸 US - Delaware vs 🇸🇦 Saudi Arabia (KSA)</option>
+                <option value="egypt_vs_uae">🇪🇬 Egypt (مصر) vs 🇦🇪 UAE - DIFC</option>
+              </select>
+              <div class="compare-vs-badge">VS</div>
+              <div style="font-size:0.85rem; color:var(--gold-200);">
+                Statutory Conflict & Enforcement Cross-Validation
+              </div>
+            </div>
+          </div>
+
+          <!-- Results Grid -->
+          <div id="jurisdiction-compare-results">
+            <!-- Dynamically populated from JS -->
+          </div>
+        </section>
+
+        <!-- ===============================================================
+             TAB 6: AUDIT HISTORY
+             =============================================================== -->
+        <section id="tab-history" class="tab-pane">
+          <div class="page-header">
+            <div>
+              <h2 class="page-title">Contract Audit History</h2>
+              <p class="page-subtitle">Archive of all processed legal contracts, compliance risk scores, and saved rewrites.</p>
+            </div>
+          </div>
+
+          <div class="card">
+            <table class="benchmark-table">
+              <thead>
+                <tr>
+                  <th>Document Name</th>
+                  <th>Governing Law</th>
+                  <th>Date Analyzed</th>
+                  <th>Risk Score</th>
+                  <th>Loopholes</th>
+                  <th>Actions</th>
+                </tr>
+              </thead>
+              <tbody id="history-table-body">
+                <!-- Dynamically populated from JS -->
+              </tbody>
+            </table>
+          </div>
+        </section>
+
+        <!-- ===============================================================
+             TAB 7: PRICING & SUBSCRIPTION (PRO TIERS)
+             =============================================================== -->
+        <section id="tab-pricing" class="tab-pane">
+          <div class="page-header">
+            <div>
+              <h2 class="page-title">Subscription & Pricing Plans</h2>
+              <p class="page-subtitle">Enterprise-grade AI compliance for founders, venture syndicates, and legal counsels.</p>
+            </div>
+          </div>
+
+          <div style="display:grid; grid-template-columns:repeat(auto-fit, minmax(300px, 1fr)); gap:2rem; margin-top:1rem;">
+            
+            <!-- Starter Free Tier -->
+            <div class="card" style="display:flex; flex-direction:column;">
+              <div style="font-size:0.85rem; font-weight:700; color:var(--slate-500); text-transform:uppercase;">Starter Tier</div>
+              <h3 style="font-family:var(--font-serif); font-size:2rem; color:var(--navy-900); margin:0.5rem 0;">$0 <span style="font-size:0.9rem; font-weight:normal; color:var(--slate-500);">/ month</span></h3>
+              <p style="font-size:0.85rem; color:var(--slate-600); margin-bottom:1.5rem;">Basic startup compliance protection up to 10 free scans.</p>
+              
+              <ul style="list-style:none; padding:0; display:flex; flex-direction:column; gap:0.6rem; font-size:0.85rem; margin-bottom:2rem; flex:1;">
+                <li>✓ 10 Free Contract Scans</li>
+                <li>✓ Basic Risk Score & Loophole Highlighting</li>
+                <li>✓ Standard Delaware & Egyptian Law Models</li>
+                <li>✓ 30 Loyalty Reward Points Starting Balance</li>
+              </ul>
+
+              <button style="padding:0.75rem; border:1px solid var(--slate-300); background:#f8fafc; color:var(--slate-700); font-weight:700; border-radius:8px; cursor:default;">
+                Current Plan
+              </button>
+            </div>
+
+            <!-- Pro Plan (Featured with 50% Loyalty Discount) -->
+            <div class="card" style="border:2px solid var(--gold-400); box-shadow:var(--shadow-gold); position:relative; display:flex; flex-direction:column;">
+              <div style="position:absolute; top:-12px; right:20px; background:linear-gradient(135deg, var(--gold-400), var(--gold-600)); color:var(--navy-950); font-size:0.7rem; font-weight:800; padding:0.2rem 0.75rem; border-radius:9999px;">
+                50% LOYALTY DISCOUNT APPLIED
+              </div>
+              
+              <div style="font-size:0.85rem; font-weight:700; color:var(--gold-600); text-transform:uppercase;">Pro Legal Guard</div>
+              <h3 style="font-family:var(--font-serif); font-size:2rem; color:var(--navy-900); margin:0.5rem 0;">
+                <span style="text-decoration:line-through; color:var(--slate-400); font-size:1.3rem; margin-right:6px;">$99</span>
+                $49.50 <span style="font-size:0.9rem; font-weight:normal; color:var(--slate-500);">/ month</span>
+              </h3>
+              <p style="font-size:0.85rem; color:var(--slate-600); margin-bottom:1.5rem;">Unlimited startup audits with real-time cross-border statutory validation.</p>
+
+              <ul style="list-style:none; padding:0; display:flex; flex-direction:column; gap:0.6rem; font-size:0.85rem; margin-bottom:2rem; flex:1;">
+                <li>✓ <strong>Unlimited</strong> Contract PDF Audits</li>
+                <li>✓ <strong>Multi-Jurisdiction Engine</strong> (Delaware, KSA, Egypt, DIFC, UK)</li>
+                <li>✓ <strong>AI Negotiation Assistant</strong> with 3 Smart Counter-Offers</li>
+                <li>✓ <strong>Full Market Benchmark</strong> against 1,500+ YC deals</li>
+                <li>✓ Court Specific Calibration (Family, Labor, Economic)</li>
+                <li>✓ Exportable Lawyer-Grade PDF Compliance Reports</li>
+              </ul>
+
+              <button class="upgrade-pro-btn btn-trigger-pro-modal" style="padding:0.85rem; font-size:0.95rem;">
+                <span>✨</span> Upgrade to Pro (50% Off Waitlist)
+              </button>
+            </div>
+
+            <!-- Enterprise Tier -->
+            <div class="card" style="display:flex; flex-direction:column;">
+              <div style="font-size:0.85rem; font-weight:700; color:var(--slate-500); text-transform:uppercase;">Enterprise Law Firm</div>
+              <h3 style="font-family:var(--font-serif); font-size:2rem; color:var(--navy-900); margin:0.5rem 0;">$299 <span style="font-size:0.9rem; font-weight:normal; color:var(--slate-500);">/ month</span></h3>
+              <p style="font-size:0.85rem; color:var(--slate-600); margin-bottom:1.5rem;">For venture capital firms, accelerators, and boutique corporate counsels.</p>
+
+              <ul style="list-style:none; padding:0; display:flex; flex-direction:column; gap:0.6rem; font-size:0.85rem; margin-bottom:2rem; flex:1;">
+                <li>✓ Multi-seat team workspace</li>
+                <li>✓ Custom regional legal model fine-tuning</li>
+                <li>✓ Dedicated compliance counsel SLA</li>
+                <li>✓ Direct API & Webhook integration</li>
+              </ul>
+
+              <button class="btn-trigger-pro-modal" style="padding:0.75rem; border:1px solid var(--navy-800); background:var(--navy-900); color:var(--gold-300); font-weight:700; border-radius:8px; cursor:pointer;">
+                Contact Enterprise Sales
+              </button>
+            </div>
+
+          </div>
+        </section>
+
+        <!-- ===============================================================
+             TAB 8: SETTINGS
+             =============================================================== -->
+        <section id="tab-settings" class="tab-pane">
+          <div class="page-header">
+            <div>
+              <h2 class="page-title">Compliance Guard Settings</h2>
+              <p class="page-subtitle">Configure your baseline startup jurisdiction and personal preferences.</p>
+            </div>
+          </div>
+
+          <div class="card" style="max-width:700px;">
+            <h3 style="font-family:var(--font-serif); font-size:1.25rem; color:var(--navy-900); margin-bottom:1.25rem;">Jurisdiction & Account Profile</h3>
+
+            <div class="quantum-field">
+              <label class="control-label" style="margin-bottom:0.4rem;">Primary Default Jurisdiction (بلد القانون الأساسي)</label>
+              <select id="settings-jurisdiction-select" class="custom-select" style="width:100%;" onchange="document.getElementById('upload-governing-law-select').value = this.value; document.getElementById('upload-governing-law-select').dispatchEvent(new Event('change'));">
+                <option value="delaware">🇺🇸 US - Delaware (DGCL & Chancery Court)</option>
+                <option value="ksa">🇸🇦 Saudi Arabia (KSA - نظام الشركات والعمل الجديد)</option>
+                <option value="egypt" selected>🇪🇬 Egypt - مصر (قانون الاستثمار والشركات 72/159)</option>
+                <option value="uae">🇦🇪 UAE - DIFC & ADGM (Common Law Zone)</option>
+                <option value="uk">🇬🇧 United Kingdom (Companies Act 2006)</option>
+              </select>
+            </div>
+
+            <div class="quantum-field" style="margin-top:1.25rem;">
+              <label class="control-label" style="margin-bottom:0.4rem;">Notification Alerts</label>
+              <label style="display:flex; align-items:center; gap:0.5rem; font-size:0.85rem; color:var(--slate-700); cursor:pointer;">
+                <input type="checkbox" checked>
+                Alert me immediately when a contract contains uncapped founder liability
+              </label>
+            </div>
+
+            <div style="margin-top:2rem; padding-top:1.25rem; border-top:1px solid var(--slate-200); display:flex; justify-content:space-between; align-items:center;">
+              <button class="upgrade-pro-btn" style="width:auto; padding:0.6rem 1.25rem;" onclick="showToast('Settings saved successfully.', '💾');">
+                Save Preferences
+              </button>
+              <button style="background:none; border:none; color:#dc2626; font-size:0.8rem; cursor:pointer;" onclick="localStorage.clear(); location.reload();">
+                Reset Account & Data
+              </button>
+            </div>
+          </div>
+        </section>
+
+      </main>
+
+    </div>
+  </div>
+
+  <!-- =====================================================================
+       FAKE PRO UPGRADE WAITLIST MODAL
+       ===================================================================== -->
+  <div id="pro-upgrade-modal" class="modal-overlay">
+    <div class="pro-modal-box">
+      <button class="btn-close-modal" id="btn-close-pro-modal">×</button>
+      
+      <div id="modal-initial-form">
+        <div style="width:72px; height:72px; margin:0 auto 1.1rem; border-radius:50%; background:radial-gradient(circle, rgba(14,35,69,0.95) 0%, rgba(4,12,26,0.98) 100%); border:2px solid var(--gold-400); padding:10px; box-shadow:0 0 25px rgba(212,175,55,0.4); display:flex; align-items:center; justify-content:center;">
+          <img src="assets/logo-icon-white.svg" alt="LexDom" style="width:100%; height:100%; object-fit:contain;">
+        </div>
+        <div class="pro-modal-badge">VIP FOUNDER ACCESS</div>
+        <h2 class="pro-modal-title">Join the Pro Waitlist!</h2>
+        
+        <p class="pro-modal-desc">
+          We are currently optimizing our advanced legal models for your region. Enter your email to get <strong>50% off</strong> when we launch next week.
+        </p>
+
+        <div class="modal-discount-banner">
+          <span>🎁</span>
+          <span id="modal-discount-subtext">
+            <strong>10 Documents Loyalty Milestone!</strong> Collect 100 points to unlock 50% off.
+          </span>
+        </div>
+
+        <div class="modal-input-group">
+          <input type="email" id="modal-waitlist-email" class="modal-email-input" placeholder="founder@lexstartup.io" value="founder@lexstartup.io">
+          <button class="btn-modal-submit" id="btn-submit-waitlist">
+            Claim 50% Off
+          </button>
+        </div>
+
+        <div style="font-size:0.75rem; color:var(--slate-400);">
+          🔒 Guaranteed Early-Bird Discount: Coupon Code <strong>LEXDOM-VIP-50</strong> will be tied directly to your registered email.
+        </div>
+      </div>
+
+      <!-- Success State after Submitting Waitlist -->
+      <div id="modal-success-state" class="modal-success-state">
+        <div style="font-size:3rem; margin-bottom:1rem;">🎉</div>
+        <h3 style="font-family:var(--font-serif); font-size:1.6rem; color:var(--gold-400); margin-bottom:0.5rem;">
+          You're on the VIP Waitlist!
+        </h3>
+        <p style="color:var(--slate-300); font-size:0.9rem; line-height:1.6; margin-bottom:1.5rem;">
+          Your exclusive <strong>50% permanent discount voucher</strong> has been officially reserved for your account:
+        </p>
+
+        <div style="background:rgba(212, 175, 55, 0.2); border:1.5px dashed var(--gold-400); border-radius:8px; padding:1rem; font-family:monospace; font-size:1.15rem; color:var(--gold-300); font-weight:700; margin-bottom:1.5rem; letter-spacing:0.1em;">
+          LEXDOM-WAITLIST-50-CLAIMED
+        </div>
+
+        <p style="font-size:0.8rem; color:var(--slate-400); margin-bottom:1.5rem;">
+          Our regional legal engine deployment finishes next week. You will receive immediate priority access.
+        </p>
+
+        <button class="upgrade-pro-btn" onclick="document.getElementById('btn-close-pro-modal').click();" style="width:100%;">
+          Back to Compliance Guard
+        </button>
+      </div>
+
+    </div>
+  </div>
+
+  <!-- Toast Notification Container -->
+  <div id="toast-container"></div>
+
+  <!-- Application Logic Scripts -->
+  <script src="js/contracts-data.js"></script>
+  <script src="js/app.js"></script>
+</body>
+</html>
